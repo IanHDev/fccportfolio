@@ -2,13 +2,17 @@
 
 html, body {
   font-size: 1 rem;
+  background-color: black;
+  
 }
+
 
 #navbar {
-
+background-color: white;
 }
 
-#welcome__backgound {
+#welcome__background {
+  opacity: 0.75;
 
 }
 
