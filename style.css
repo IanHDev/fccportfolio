@@ -8,11 +8,24 @@ html, body {
 
 
 #navbar {
-background-color: white;
+background-image: linear-gradient(to bottom right, orangered, rgba(179, 35, 159, 0.726));
+position: fixed ;
+width: 100%;
+left: 0;
+top: 0px;
+z-index: 2;
+}
+
+#navbar_links {
+list-style-type: none;
+padding: 0;
+margin: 0;
+/* flex-direction: column; */
+
 }
 
 #welcome__background {
-  opacity: 0.75;
+  opacity: 0.5;
 
 }
 
@@ -20,3 +33,4 @@ background-color: white;
 
 }
 
+/* set the top menu bar to absolute? top 0 with a high z index. Or fixed. no longer part of document flow.  */
